@@ -49,3 +49,8 @@ end
 get '/example' do
   erb :example
 end
+
+get '/star' do
+  post_id = params["post_id"].to_i
+  post = db.execute("SELECT star_count FROM posts WHERE id = ?", post_id)
+  if 
