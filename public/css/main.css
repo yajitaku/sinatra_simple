@@ -44,3 +44,21 @@ textarea{
 .form-submit{
     margin-top: 10px;
 }
+
+.tools{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.add-star:before{
+    content: "★";
+    color: yellow;
+}
+
+.add-star{
+    cursor: pointer;
+}
+
+.add-star:hover{
+    text-decoration: underline;
+}
